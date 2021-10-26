@@ -2,9 +2,12 @@
 require_once('engine.class.php');
 //header('Content-Type:application/json');
 
-define('DS', DIRECTORY_SEPARATOR);
-define('BASE_PATH', __DIR__.DS);
-require BASE_PATH.'route/vendor/autoload.php';
+// define('DS', DIRECTORY_SEPARATOR);
+// define('BASE_PATH', __DIR__.DS);
+// require BASE_PATH.'route/vendor/autoload.php';
+
+require 'route/vendor/autoload.php';
+
 
 $app            = System\App::instance();
 $app->request   = System\Request::instance();

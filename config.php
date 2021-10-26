@@ -6,9 +6,9 @@ function sentize($string) {
 class DB{
 
     private $host       = 'localhost';
-    private $username   = 'root';
-    private $password   = '';
-    private $database   = 'stem';
+    private $username   = 'DBusername';
+    private $password   = 'y5cWMfohVk8T5twJ';
+    private $database   = 'stempro';
     
     protected $Jigo;
     
